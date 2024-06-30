@@ -9,4 +9,4 @@ const dbconnect = ()=>{
     .catch((err)=> console.log(err.message));
 }
 
-module.exports = dbconnect;
+module.exports = dbconnect; 

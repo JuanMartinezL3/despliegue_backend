@@ -10,7 +10,7 @@ app.use('/api/usuarios',require ('./routes/usuario.routes'));
 app.use('/api/empleados',require ('./routes/empleado.routes'));
 app.listen(3005, ()=> {
      console.log("El servidor esta corriendo🏃🏻‍♂️🏃🏻‍♀️ en el puerto 3005")
-});
+}); 
 
 dbconnect();
 

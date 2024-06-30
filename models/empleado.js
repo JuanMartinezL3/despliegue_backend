@@ -6,7 +6,7 @@ const empleadoModel = new mongoose.Schema(
     
         
         nombre:{
-            type: String 
+            type: String  
         },
         cargo:{
             type: String

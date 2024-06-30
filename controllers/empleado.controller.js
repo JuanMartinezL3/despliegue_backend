@@ -5,9 +5,9 @@ const empleadoCtrl = {};
 empleadoCtrl.createEmpleado=   async (req, res) => {
     const body = req.body;
     const respuesta = await ModelEmpleado.create(body)
-    res.send(respuesta)
+    res.send(respuesta) 
 } 
-
+ 
 //Consultar
 empleadoCtrl.getEmpleado = async (req ,res)=>{
     const respuesta = await ModelEmpleado.find({})

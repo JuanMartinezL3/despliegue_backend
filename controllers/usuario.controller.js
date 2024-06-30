@@ -6,8 +6,8 @@ usuarioCtrl.createUser=   async (req, res) => {
     const body = req.body;
     const respuesta = await ModelUser.create(body)
     res.send(respuesta)
-} 
-
+}  
+  
 //Consultar
 usuarioCtrl.getUsers = async (req ,res)=>{
     const respuesta = await ModelUser.find({})
